@@ -108,7 +108,7 @@ class InstagramAutoPostBot:
 
         #select and create caption part 1
         #select_file = random.randrange(0, 5)
-        files = os.listdir(captions_path)
+        #files = os.listdir(captions_path)
         #caption_pre = self.read_file_data(file=files[select_file],folder_name=captions_path)
         '''
         # select and create caption part 2
