@@ -11,8 +11,8 @@ class InstagramAutoPostBot:
     def __init__(self):
 
         self.bot = Bot()
-        self.username_txt = "crazy_bulk_"
-        self.password_txt = "5421263b"
+        self.username_txt = "acvgummies_"
+        self.password_txt = "5421263bbb"
         self.time_delay = 1  # delay after reposting media set to 1 hour
         self.user_counter = 0
         self.post_counter = 0
@@ -36,7 +36,7 @@ class InstagramAutoPostBot:
             print("config.ini exists. Now deleting: config.ini")
         config.read('config.ini')
         config.add_section('settings')
-        config.set('settings', 'Username', value='crazy_bulk_')
+        config.set('settings', 'Username', value='acvgummies_')
         config.set('settings', 'Password', value='5421263b')
         config.set('settings', 'user_counter', value=str(self.user_counter))
         config.set('settings', 'post_counter', value=str(self.post_counter))
@@ -60,7 +60,7 @@ class InstagramAutoPostBot:
     def random_hashtag_generator(self):
         list1 = set()
         list2 = set()
-        f = open("hashtags/all2.txt", 'r')
+        f = open("hashtags/hashtags.txt", 'r')
         for x in f:
             line = x.replace("\n", " ")
             list1.add(line)
@@ -102,7 +102,7 @@ class InstagramAutoPostBot:
         captions_path='captions'
         hashtags_path = 'hashtags'
         bot = self.bot
-        caption_pre = "SAVE 20% NOW USING LINK IN BIO."
+        caption_pre = "GOLI APPLE CIDER VINEGAR GUMMIES. SAVE 5% Using LINK IN BIO."
         caption_post = ""
         caption_txt = ""
 
