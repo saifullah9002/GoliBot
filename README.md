@@ -1,2 +1,1 @@
-# autopost2.0
-fitn.esspro69
+# GOLI GUMMIES AUTO POSTING BOT
